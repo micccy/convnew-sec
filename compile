@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -Wall -o old2new old2new.c
+gcc -Wall -o new2old new2old.c
