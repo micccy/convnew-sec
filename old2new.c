@@ -14,7 +14,7 @@ int main(int argc,char *argv[]){
             printf("(%5lu) %2lu:%02lu:%02lu in old time == %01lu.%04lu in new time\n", oldsec, oldsec/3600, (oldsec/60)%60, oldsec%60, newsec/10000, newsec%10000);
         }else printf("%lu > 240000 !!!\n", newsec);
     }else{
-        printf("This utility converts old seconds in new seconds\n");
+        printf("This utility converts old time in new timeseconds\n");
     };
     return 0;
 }
