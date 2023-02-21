@@ -10,7 +10,7 @@ int main(int argc,char *argv[]){
             printf("%01lu.%04lu in new time == %2lu:%02lu:%02lu (%5lu) in old time\n", newsec/10000, newsec%10000, oldsec/3600, (oldsec/60)%60, oldsec%60, oldsec);
         }else printf("%lu > 100000 !!!\n", newsec);
     }else{
-        printf("This utility converts new seconds in old seconds\n");
+        printf("This utility converts new time (in seconds) in old time\n");
     };
     return 0;
 }
